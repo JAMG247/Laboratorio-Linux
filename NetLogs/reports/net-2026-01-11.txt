@@ -1,0 +1,6 @@
+===== REGISTRO DE RED =====
+Fecha: Sun Jan 11 16:12:10 -03 2026
+Usuario: u0_a362
+Sistema: Linux localhost 5.15.78-android13-8-00014-gaa272796660e-ab9611439 #1 SMP PREEMPT Wed Feb 15 16:10:20 UTC 2023 aarch64 Android
+8.8.8.8 (8.8.8.8:53) open
+google.com (142.251.0.113:443) open

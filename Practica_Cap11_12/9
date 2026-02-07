@@ -1,0 +1,5 @@
+echo "==== HARDWARE ====" > hardware.txt
+uname -m >> hardware.txt
+lscpu >> hardware.txt
+free -h >> hardware.txt
+

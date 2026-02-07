@@ -1,0 +1,50 @@
+  290  cd ~
+  291  cd DiarioSysadmin
+  292  cp -v notas/*.txt backup/
+  293  ls backup
+  294  clear
+  295  ls
+  296  cd backup
+  297  ls
+  298  rm *.txt
+  299  ls
+  300  cd DiarioSysadmin
+  301  cd ..
+  302  clear
+  303  ls
+  304  mkdir -p ~/AuditoriaSys/reports
+  305  ls
+  306  cd ..
+  307  ls
+  308  cd AuditoriaSys/
+  309  ls
+  310  cd reports/
+  311  ls
+  312  clear
+  313  cd ..
+  314  ls
+  315  clear
+  316  FECHA=$(date +%Y-%m-%d_%H-%M)
+  317  echo FECHA
+  318  echo $FECHA
+  319  {   echo "===== AUDITORÍA DEL SISTEMA =====";   echo "Fecha: $(date)";   echo "Usuario: $(whoami)";   echo "Directorio actual: $(pwd)";   echo;   echo "---- Sistema ----";   uname -a;   echo;   echo "---- Espacio en disco ----";   df -h;   echo;   echo "---- Memoria ----";   free -h;   echo;   echo "---- Procesos (top 5) ----";   ps aux | head -6; } > reports/reporte-$FECHA.txt
+  320  ls
+  321  cd reports/
+  322  ls
+  323  cat reporte-2026-01-09_00-18.txt 
+  324  cd ~
+  325  clear
+  326  tree
+  327  pwd
+  328  clear
+  329  ls
+  330  cd DiarioSysadmin
+  331  FECHA=$(date +%Y-%m-%d)
+  332  echo $FECHA
+  333  mkdir -p $FECHA
+  334  { echo "===== DIARIO DEL SYSADMIN =====" echo "Fecha: $(date)" echo "Usuario: $(whoami)" echo "Directorio: $(pwd)" } >$FECHA/diario.txt;  history | tail -50 >$FECHA/comandos.txt; $FECHA/diario.txt
+  335  clear
+  336  ls
+  337  {   echo "===== DIARIO DEL SYSADMIN =====";   echo "Fecha: $(date)";   echo "Usuario: $(whoami)";   echo "Directorio: $(pwd)"; } > $FECHA/diario.txt
+  338  ls
+  339  history | tail -50 > $FECHA/comandos.txt

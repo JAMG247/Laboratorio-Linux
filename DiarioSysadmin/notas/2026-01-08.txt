@@ -1,0 +1,10 @@
+===== Diario Sysadmin =====
+Fecha: Thu Jan  8 20:51:19 -03 2026
+Usuario: u0_a362
+Sistema: Linux localhost 5.15.78-android13-8-00014-gaa272796660e-ab9611439 #1 SMP PREEMPT Wed Feb 15 16:10:20 UTC 2023 aarch64 Android
+Directorio actual: /data/data/com.termux/files/home/DiarioSysadmin
+===== Diario Sysadmin =====
+Fecha: Thu Jan  8 21:46:51 -03 2026
+Usuario: u0_a362
+Sistema: Linux localhost 5.15.78-android13-8-00014-gaa272796660e-ab9611439 #1 SMP PREEMPT Wed Feb 15 16:10:20 UTC 2023 aarch64 Android
+Directorio actual: /data/data/com.termux/files/home/DiarioSysadmin/notas

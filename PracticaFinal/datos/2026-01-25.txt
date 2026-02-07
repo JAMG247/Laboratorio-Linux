@@ -1,0 +1,4 @@
+===== REGISTRO DIARIO =====
+Fecha: Sun Jan 25 14:58:52 -03 2026
+Usuario: u0_a362
+Directorio actual: /data/data/com.termux/files/home

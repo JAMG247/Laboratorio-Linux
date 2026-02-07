@@ -1,0 +1,4 @@
+===== DIARIO DEL SYSADMIN =====
+Fecha: Fri Jan  9 20:41:18 -03 2026
+Usuario: u0_a362
+Directorio: /data/data/com.termux/files/home/DiarioSysadmin

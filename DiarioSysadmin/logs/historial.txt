@@ -1,0 +1,20 @@
+  117  cd ~
+  118  0wd
+  119  pwd
+  120  mkdir DiarioSysadmin
+  121  pwd
+  122  cd DiaroSysadmin
+  123  cd DiarioSysadmin
+  124  mkdir notas scripts logs
+  125  tree
+  126  pkg install tree
+  127  FECHA=$(date +%Y-%m-%d)
+  128  echo "Diario del Sysadmin - $FECHA" > notas/$FECHA.txt
+  129  echo "Usuario: $(whoami)" >> notas/$FECHA.txt
+  130  echo "Sistema: $(uname -a)" >> notas/$FECHA.txt
+  131  echo "Directorio actual: $(pwd)" >> notas/$FECHA.txt
+  132  cat notas/$FECHA.txt
+  133  grep Sysadmin notas/.txt
+  134  grep Sysadmin notas/*.txt
+  135  grep Linux notas/*.txt
+  136  history | tail -20 > logs/historial.txt
