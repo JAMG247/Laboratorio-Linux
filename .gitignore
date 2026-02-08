@@ -1,0 +1,13 @@
+# Git personal
+.gitconfig
+.git-credentials
+
+# Historiales locales
+.bash_history
+.lesshst
+
+# Directorios locales
+.config/
+.local/
+.ssh/
+
